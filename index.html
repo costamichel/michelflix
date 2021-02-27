@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelflix</title>
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">MICHELFLIX</h2>
+            <nav>
+                <a href="mailto:costa.michel10@hotmail.com">E-mail</a>
+                <a href="https://www.facebook.com/profile.php?id=100051174681739" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/in/michelmichelcosta/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/costamichel" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo" id="filme-titulo">HOUSE OF CARDS</h3>
+                <p class="descricao" id="filme-descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards, que está imperdível!</p>
+                <div class="botoes">
+                    <button class="botao" id="botao-assista" role="button" onclick="abreTrailer(this)" value="0">
+                        <i class="fas fa-play"></i>
+                        ASSISTA O TRAILER
+                    </button>
+                    <button class="botao" role="button" id="botao-mais" value="1" onclick="abreInfo(this)">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme" id="filmes-carrossel">
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="" srcset="" value="0">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/8d8095068e.js" crossorigin="anonymous"></script>
+    <!--owl scripts-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+    <footer>
+        Desenvolvido por Michel Costa
+    </footer>
+
+
+</body>
+</html>
